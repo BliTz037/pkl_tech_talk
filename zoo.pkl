@@ -1,0 +1,19 @@
+// Basic pkl structure
+api {
+    name = "API 🐧"
+    email = "platform_ws@withings.com"
+    location {
+        city = "Issy-les-Moulineaux"
+        floor = 1
+        department = "Platform"
+    }
+}
+ios {
+    name = "iOS 🐆"
+    email = "ios@withings.com"
+    location {
+        city = "Issy-les-Moulineaux"
+        floor = 1
+        department = "Mobile"
+    }
+}

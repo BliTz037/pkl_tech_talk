@@ -1,0 +1,35 @@
+import  "Developer.pkl"
+
+TRI = new Developer {
+    name = "TRI"
+    age  = 23
+    gpa = 1.81
+    language { "Python" "JavaScript" "PHP" }
+    address {
+        address = "123 rue bidon"
+        city = "Paris"
+        state = "Ile-de-France"
+        zip = "75001"
+        country = "France"
+        latitude = 48.8566
+        longitude = 2.3522
+    }
+    team = "API"
+    isActive = true
+}
+
+JDO = new Developer {
+    name = "John Doe"
+    age  = 42
+    gpa = 4.0
+    language { "Python" "Rust" "C++" }
+    address {
+        address = "456 rue de la paix"
+        city = "Clamart"
+        state = "Ile-de-France"
+        zip = "92140"
+        country = "France"
+    }
+    team = "OPS"
+    isActive = false
+}

@@ -1,0 +1,5 @@
+port: Int (isBetween(1023, 65535))
+address: String(!isEmpty)
+environment: Environment
+
+typealias Environment = "dev"|"beta"|"prod"

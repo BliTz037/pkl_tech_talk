@@ -1,0 +1,10 @@
+module Developer
+import "Address.pkl"
+
+name: String
+age: Int (this >= 17)
+gpa: Float (isBetween(1.5, 4.0))
+language: Listing<String>
+address: Address
+team: String
+isActive: Boolean

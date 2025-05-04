@@ -1,0 +1,17 @@
+amends "AcmeCICD.pkl"
+
+timeout = 20
+pipelines {
+    new {
+        name = "Dev Environment"
+        branchName = "master"
+    }
+    new {
+        name = "BETA Environment"
+        branchName = "beta"
+    }
+    new {
+        name = "PROD Environment"
+        branchName = "prod"
+    }
+}
